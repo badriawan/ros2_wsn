@@ -1,2 +1,2 @@
 # ros2_wsn
-new version of ros2 ws
+new updated version of ros2 ws 
