@@ -1,0 +1,80 @@
+[0.016s] Invoking command in '/home/yusuf/ros2_wsn/build/control_systems': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_wsn/src/control_systems -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_wsn/install/control_systems
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.186s] -- The CXX compiler identification is GNU 11.4.0
+[0.199s] -- Detecting C compiler ABI info
+[0.298s] -- Detecting C compiler ABI info - done
+[0.316s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.316s] -- Detecting C compile features
+[0.317s] -- Detecting C compile features - done
+[0.323s] -- Detecting CXX compiler ABI info
+[0.424s] -- Detecting CXX compiler ABI info - done
+[0.438s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.438s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.445s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.641s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.770s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.854s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.862s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.876s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.898s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.926s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.028s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.034s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.198s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.249s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.313s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.327s] -- Looking for pthread.h
+[1.419s] -- Looking for pthread.h - found
+[1.420s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.518s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.520s] -- Found Threads: TRUE  
+[1.768s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.840s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.961s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.523s] -- Configuring done
+[2.544s] -- Generating done
+[2.547s] -- Build files have been written to: /home/yusuf/ros2_wsn/build/control_systems
+[2.560s] Invoked command in '/home/yusuf/ros2_wsn/build/control_systems' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_wsn/src/control_systems -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_wsn/install/control_systems
+[2.563s] Invoking command in '/home/yusuf/ros2_wsn/build/control_systems': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/control_systems -- -j8 -l8
+[2.631s] [ 25%] [32mBuilding CXX object CMakeFiles/goal_planner.dir/src/goal_planner.cpp.o[0m
+[2.632s] [ 50%] [32mBuilding CXX object CMakeFiles/goal_linear.dir/src/goal_linear.cpp.o[0m
+[6.019s] [01m[K/home/yusuf/ros2_wsn/src/control_systems/src/goal_planner.cpp:[m[K In member function ‘[01m[Kvoid GoalPlanner::odomCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[6.020s] [01m[K/home/yusuf/ros2_wsn/src/control_systems/src/goal_planner.cpp:50:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KKi_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.020s]    50 |     double [01;35m[KKi_dist[m[K = get_parameter("Ki_dist").as_double();
+[6.020s]       |            [01;35m[K^~~~~~~[m[K
+[6.021s] [01m[K/home/yusuf/ros2_wsn/src/control_systems/src/goal_planner.cpp:51:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KKd_dist[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.021s]    51 |     double [01;35m[KKd_dist[m[K = get_parameter("Kd_dist").as_double();
+[6.021s]       |            [01;35m[K^~~~~~~[m[K
+[24.611s] [ 75%] [32m[1mLinking CXX executable goal_planner[0m
+[25.949s] [ 75%] Built target goal_planner
+[26.392s] [100%] [32m[1mLinking CXX executable goal_linear[0m
+[27.570s] [100%] Built target goal_linear
+[27.597s] Invoked command in '/home/yusuf/ros2_wsn/build/control_systems' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/control_systems -- -j8 -l8
+[27.706s] Invoking command in '/home/yusuf/ros2_wsn/build/control_systems': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/control_systems
+[27.725s] -- Install configuration: ""
+[27.725s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/lib/control_systems/goal_linear
+[27.736s] -- Set runtime path of "/home/yusuf/ros2_wsn/install/control_systems/lib/control_systems/goal_linear" to ""
+[27.736s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/lib/control_systems/goal_planner
+[27.746s] -- Set runtime path of "/home/yusuf/ros2_wsn/install/control_systems/lib/control_systems/goal_planner" to ""
+[27.746s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/launch
+[27.747s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/launch/velocity_controller.launch.py
+[27.747s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf
+[27.747s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf/diff_drive_vel.urdf
+[27.747s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf/diff_sens.urdf
+[27.748s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/package_run_dependencies/control_systems
+[27.748s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/parent_prefix_path/control_systems
+[27.749s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/ament_prefix_path.sh
+[27.749s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/ament_prefix_path.dsv
+[27.749s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/path.sh
+[27.750s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/path.dsv
+[27.750s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.bash
+[27.751s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.sh
+[27.751s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.zsh
+[27.751s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.dsv
+[27.752s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.dsv
+[27.753s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/packages/control_systems
+[27.754s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/cmake/control_systemsConfig.cmake
+[27.754s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/cmake/control_systemsConfig-version.cmake
+[27.754s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.xml
+[27.759s] Invoked command in '/home/yusuf/ros2_wsn/build/control_systems' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/control_systems
