@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target goal_linear[0m
+[35m[1mConsolidate compiler generated dependencies of target goal_planner[0m
+[ 50%] Built target goal_linear
+[ 75%] [32mBuilding CXX object CMakeFiles/goal_planner.dir/src/goal_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX executable goal_planner[0m
+[100%] Built target goal_planner
+-- Install configuration: ""
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/lib/control_systems/goal_linear
+-- Installing: /home/yusuf/ros2_wsn/install/control_systems/lib/control_systems/goal_planner
+-- Set runtime path of "/home/yusuf/ros2_wsn/install/control_systems/lib/control_systems/goal_planner" to ""
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/launch
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/launch/velocity_controller.launch.py
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf
+-- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf/diff_drive_vel.urdf
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf/diff_sens.urdf
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/package_run_dependencies/control_systems
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/parent_prefix_path/control_systems
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/path.sh
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/path.dsv
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.bash
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.sh
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.zsh
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.dsv
+-- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.dsv
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/packages/control_systems
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/cmake/control_systemsConfig.cmake
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/cmake/control_systemsConfig-version.cmake
+-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.xml

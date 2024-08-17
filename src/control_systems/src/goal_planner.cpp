@@ -42,13 +42,13 @@ private:
    
     double theta = getYaw(odom->pose.pose.orientation);
     
-    RCLCPP_INFO(this->get_logger(), "Pose x: '%f' Pose y: '%f'", _x,_y);
+    //RCLCPP_INFO(this->get_logger(), "Pose x: '%f' Pose y: '%f'", _x,_y);
 
     double goal_x = get_parameter("goal_x").as_double();
     double goal_y = get_parameter("goal_y").as_double();
     double Kp_dist = get_parameter("Kp_dist").as_double();
-    double Ki_dist = get_parameter("Ki_dist").as_double();
-    double Kd_dist = get_parameter("Kd_dist").as_double();
+    // double Ki_dist = get_parameter("Ki_dist").as_double();
+    // double Kd_dist = get_parameter("Kd_dist").as_double();
 
 
     double Kp_angle = get_parameter("Kp_angle").as_double();
@@ -63,7 +63,7 @@ private:
     A = atan2(sin(A),cos(A));
     double EA = A - theta;
 
-    RCLCPP_INFO(this->get_logger(), "Yaw: '%f' , EA: '%f' ", ED,EA);
+    //RCLCPP_INFO(this->get_logger(), "Yaw: '%f' , EA: '%f' ", ED,EA);
         
     ED = std::max(0.0,std::min(ED,0.5));
     EA = std::max(-1.0,std::min(EA,1.0));
@@ -77,6 +77,7 @@ private:
         // cmd.linear.x = (error > 0) ? 0.5 : -0.5; // Move towards the set point
         cmd.linear.x = error_d; // Move towards the set point
         cmd.angular.z = error_a;
+        RCLCPP_INFO(this->get_logger(), "velocities '%f' ", cmd.linear.x);
 
     }
      //else if(std::abs(error_a) > _threshold_a){

@@ -194,7 +194,6 @@
 
   </joint>
 
-
 <ros2_control name="GazeboSystem" type="system">
   <hardware>
     <plugin>gazebo_ros2_control/GazeboSystem</plugin>
@@ -237,5 +236,6 @@
     <parameters>/home/yusuf/ros2_ws/src/control_systems/config/diff_controller.yaml</parameters>
   </plugin>
 </gazebo>
+
 
 </robot>
