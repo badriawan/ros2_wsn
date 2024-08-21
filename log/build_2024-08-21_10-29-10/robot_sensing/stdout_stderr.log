@@ -1,0 +1,95 @@
+[35m[1mConsolidate compiler generated dependencies of target line_following[0m
+[ 25%] Built target maze_lidar
+[ 50%] Built target odom_kinematic
+[ 62%] [32mBuilding CXX object CMakeFiles/line_following.dir/src/linefollowing.cpp.o[0m
+[ 87%] Built target point_cloud_segmentation
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:[m[K In member function ‘[01m[Kvoid LineFollowing::subCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:86:31:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator-[m[K’ (operand type is ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’)
+   86 |       velocityMsg.angular.z = [01;31m[K-velocityMsg[m[K;
+      |                               [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/array:40[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/functional:54[m[K,
+                 from [01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__y.base() - __x.base())) std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+  577 |     [01;36m[Koperator[m[K-(const reverse_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:577:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:86:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   86 |       velocityMsg.angular.z = -[01;36m[KvelocityMsg[m[K;
+      |                                [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/array:40[m[K,
+                 from [01m[K/usr/include/c++/11/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/11/functional:54[m[K,
+                 from [01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:2[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr decltype ((__x.base() - __y.base())) std::operator-(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+ 1693 |     [01;36m[Koperator[m[K-(const move_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1693:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:86:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   86 |       velocityMsg.angular.z = -[01;36m[KvelocityMsg[m[K;
+      |                                [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:9[m[K:
+[01m[K/usr/include/c++/11/complex:362:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+  362 |     [01;36m[Koperator[m[K-(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:362:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:86:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+   86 |       velocityMsg.angular.z = -[01;36m[KvelocityMsg[m[K;
+      |                                [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:9[m[K:
+[01m[K/usr/include/c++/11/complex:371:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const _Tp&)[m[K’
+  371 |     [01;36m[Koperator[m[K-(const complex<_Tp>& __x, const _Tp& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:371:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:86:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+   86 |       velocityMsg.angular.z = -[01;36m[KvelocityMsg[m[K;
+      |                                [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:9[m[K:
+[01m[K/usr/include/c++/11/complex:380:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const _Tp&, const std::complex<_Tp>&)[m[K’
+  380 |     [01;36m[Koperator[m[K-(const _Tp& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:380:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:86:32:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+   86 |       velocityMsg.angular.z = -[01;36m[KvelocityMsg[m[K;
+      |                                [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:9[m[K:
+[01m[K/usr/include/c++/11/complex:457:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&)[m[K’
+  457 |     [01;36m[Koperator[m[K-(const complex<_Tp>& __x)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:457:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:86:32:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+   86 |       velocityMsg.angular.z = -[01;36m[KvelocityMsg[m[K;
+      |                                [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:88:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’ to ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’} in assignment
+   88 |       velocityMsg.angular.z = [01;31m[KvelocityMsg[m[K;
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+      |                               [01;31m[K|[m[K
+      |                               [01;31m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:51:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KKp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   51 |     double [01;35m[KKp[m[K = get_parameter("Kp").as_double();
+      |            [01;35m[K^~[m[K
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:52:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KKi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   52 |     double [01;35m[KKi[m[K = get_parameter("Ki").as_double();
+      |            [01;35m[K^~[m[K
+gmake[2]: *** [CMakeFiles/line_following.dir/build.make:76: CMakeFiles/line_following.dir/src/linefollowing.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/line_following.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

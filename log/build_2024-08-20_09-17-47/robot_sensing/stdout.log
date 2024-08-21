@@ -1,0 +1,4 @@
+[ 25%] Built target odom_kinematic
+[ 50%] Built target point_cloud_segmentation
+[35m[1mConsolidate compiler generated dependencies of target line_following[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/line_following.dir/src/linefollowing.cpp.o[0m

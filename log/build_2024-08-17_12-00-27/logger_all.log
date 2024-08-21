@@ -1,0 +1,208 @@
+[0.832s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.832s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x70163f352aa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x70163f3523e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x70163f3523e0>>)
+[2.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.425s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yusuf/ros2_wsn'
+[2.425s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.516s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.517s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.518s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_systems) by extensions ['ignore', 'ignore_ament_install']
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_systems) by extension 'ignore'
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_systems) by extension 'ignore_ament_install'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_systems) by extensions ['colcon_pkg']
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_systems) by extension 'colcon_pkg'
+[2.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_systems) by extensions ['colcon_meta']
+[2.533s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_systems) by extension 'colcon_meta'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_systems) by extensions ['ros']
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(src/control_systems) by extension 'ros'
+[2.552s] DEBUG:colcon.colcon_core.package_identification:Package 'src/control_systems' with type 'ros.ament_cmake' and name 'control_systems'
+[2.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensing) by extensions ['ignore', 'ignore_ament_install']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensing) by extension 'ignore'
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensing) by extension 'ignore_ament_install'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensing) by extensions ['colcon_pkg']
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensing) by extension 'colcon_pkg'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensing) by extensions ['colcon_meta']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensing) by extension 'colcon_meta'
+[2.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensing) by extensions ['ros']
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_sensing) by extension 'ros'
+[2.563s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_sensing' with type 'ros.ament_cmake' and name 'robot_sensing'
+[2.563s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.564s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.800s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/yusuf/ros2_wsn/install
+[2.806s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/yusuf/assignment_ws/install
+[2.824s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 426 installed packages in /opt/ros/humble
+[2.837s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.268s] Level 5:colcon.colcon_core.verb:set package 'control_systems' build argument 'cmake_args' from command line to 'None'
+[3.269s] Level 5:colcon.colcon_core.verb:set package 'control_systems' build argument 'cmake_target' from command line to 'None'
+[3.269s] Level 5:colcon.colcon_core.verb:set package 'control_systems' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.269s] Level 5:colcon.colcon_core.verb:set package 'control_systems' build argument 'cmake_clean_cache' from command line to 'False'
+[3.270s] Level 5:colcon.colcon_core.verb:set package 'control_systems' build argument 'cmake_clean_first' from command line to 'False'
+[3.270s] Level 5:colcon.colcon_core.verb:set package 'control_systems' build argument 'cmake_force_configure' from command line to 'False'
+[3.271s] Level 5:colcon.colcon_core.verb:set package 'control_systems' build argument 'ament_cmake_args' from command line to 'None'
+[3.271s] Level 5:colcon.colcon_core.verb:set package 'control_systems' build argument 'catkin_cmake_args' from command line to 'None'
+[3.272s] Level 5:colcon.colcon_core.verb:set package 'control_systems' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.273s] DEBUG:colcon.colcon_core.verb:Building package 'control_systems' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yusuf/ros2_wsn/build/control_systems', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yusuf/ros2_wsn/install/control_systems', 'merge_install': False, 'path': '/home/yusuf/ros2_wsn/src/control_systems', 'symlink_install': False, 'test_result_base': None}
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'robot_sensing' build argument 'cmake_args' from command line to 'None'
+[3.275s] Level 5:colcon.colcon_core.verb:set package 'robot_sensing' build argument 'cmake_target' from command line to 'None'
+[3.276s] Level 5:colcon.colcon_core.verb:set package 'robot_sensing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.276s] Level 5:colcon.colcon_core.verb:set package 'robot_sensing' build argument 'cmake_clean_cache' from command line to 'False'
+[3.276s] Level 5:colcon.colcon_core.verb:set package 'robot_sensing' build argument 'cmake_clean_first' from command line to 'False'
+[3.276s] Level 5:colcon.colcon_core.verb:set package 'robot_sensing' build argument 'cmake_force_configure' from command line to 'False'
+[3.276s] Level 5:colcon.colcon_core.verb:set package 'robot_sensing' build argument 'ament_cmake_args' from command line to 'None'
+[3.276s] Level 5:colcon.colcon_core.verb:set package 'robot_sensing' build argument 'catkin_cmake_args' from command line to 'None'
+[3.277s] Level 5:colcon.colcon_core.verb:set package 'robot_sensing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.277s] DEBUG:colcon.colcon_core.verb:Building package 'robot_sensing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yusuf/ros2_wsn/build/robot_sensing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yusuf/ros2_wsn/install/robot_sensing', 'merge_install': False, 'path': '/home/yusuf/ros2_wsn/src/robot_sensing', 'symlink_install': False, 'test_result_base': None}
+[3.278s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yusuf/ros2_wsn/src/control_systems' with build type 'ament_cmake'
+[3.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yusuf/ros2_wsn/src/control_systems'
+[3.304s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.344s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yusuf/ros2_wsn/src/robot_sensing' with build type 'ament_cmake'
+[3.346s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yusuf/ros2_wsn/src/robot_sensing'
+[3.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/ros2_wsn/build/control_systems': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/control_systems -- -j8 -l8
+[3.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/ros2_wsn/build/robot_sensing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/robot_sensing -- -j8 -l8
+[4.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/ros2_wsn/build/control_systems' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/control_systems -- -j8 -l8
+[4.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/ros2_wsn/build/control_systems': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/control_systems
+[4.660s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_systems)
+[4.702s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems' for CMake module files
+[4.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/ros2_wsn/build/control_systems' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/control_systems
+[4.716s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems' for CMake config files
+[4.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_systems', 'cmake_prefix_path')
+[4.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/hook/cmake_prefix_path.ps1'
+[4.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/hook/cmake_prefix_path.dsv'
+[4.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/hook/cmake_prefix_path.sh'
+[4.736s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems/lib'
+[4.737s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems/bin'
+[4.738s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems/lib/pkgconfig/control_systems.pc'
+[4.739s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems/lib/python3.10/site-packages'
+[4.742s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems/bin'
+[4.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.ps1'
+[4.752s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.dsv'
+[4.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.sh'
+[4.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.bash'
+[4.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.zsh'
+[4.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/ros2_wsn/install/control_systems/share/colcon-core/packages/control_systems)
+[4.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(control_systems)
+[4.996s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems' for CMake module files
+[4.999s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems' for CMake config files
+[5.001s] Level 1:colcon.colcon_core.shell:create_environment_hook('control_systems', 'cmake_prefix_path')
+[5.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/hook/cmake_prefix_path.ps1'
+[5.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/hook/cmake_prefix_path.dsv'
+[5.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/hook/cmake_prefix_path.sh'
+[5.020s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems/lib'
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems/bin'
+[5.021s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems/lib/pkgconfig/control_systems.pc'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems/lib/python3.10/site-packages'
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/control_systems/bin'
+[5.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.ps1'
+[5.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.dsv'
+[5.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.sh'
+[5.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.bash'
+[5.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.zsh'
+[5.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/ros2_wsn/install/control_systems/share/colcon-core/packages/control_systems)
+[74.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/ros2_wsn/build/robot_sensing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/robot_sensing -- -j8 -l8
+[74.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yusuf/ros2_wsn/build/robot_sensing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/robot_sensing
+[74.909s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_sensing)
+[74.911s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing' for CMake module files
+[74.917s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing' for CMake config files
+[74.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_sensing', 'cmake_prefix_path')
+[74.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/hook/cmake_prefix_path.ps1'
+[74.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/hook/cmake_prefix_path.dsv'
+[74.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yusuf/ros2_wsn/build/robot_sensing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/robot_sensing
+[74.933s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/hook/cmake_prefix_path.sh'
+[74.941s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing/lib'
+[74.942s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing/bin'
+[74.942s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing/lib/pkgconfig/robot_sensing.pc'
+[74.943s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing/lib/python3.10/site-packages'
+[74.945s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing/bin'
+[74.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.ps1'
+[74.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.dsv'
+[74.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.sh'
+[74.961s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.bash'
+[74.963s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.zsh'
+[74.965s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/ros2_wsn/install/robot_sensing/share/colcon-core/packages/robot_sensing)
+[75.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_sensing)
+[75.563s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing' for CMake module files
+[75.567s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing' for CMake config files
+[75.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_sensing', 'cmake_prefix_path')
+[75.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/hook/cmake_prefix_path.ps1'
+[75.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/hook/cmake_prefix_path.dsv'
+[75.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/hook/cmake_prefix_path.sh'
+[75.594s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing/lib'
+[75.596s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing/bin'
+[75.598s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing/lib/pkgconfig/robot_sensing.pc'
+[75.600s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing/lib/python3.10/site-packages'
+[75.606s] Level 1:colcon.colcon_core.environment:checking '/home/yusuf/ros2_wsn/install/robot_sensing/bin'
+[75.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.ps1'
+[75.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.dsv'
+[75.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.sh'
+[75.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.bash'
+[75.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.zsh'
+[75.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yusuf/ros2_wsn/install/robot_sensing/share/colcon-core/packages/robot_sensing)
+[75.651s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[75.653s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[75.654s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[75.660s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[75.702s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[75.703s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[75.705s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[75.706s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[75.715s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[75.716s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[75.718s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yusuf/ros2_wsn/install/local_setup.ps1'
+[75.725s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yusuf/ros2_wsn/install/_local_setup_util_ps1.py'
+[75.740s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yusuf/ros2_wsn/install/setup.ps1'
+[75.752s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yusuf/ros2_wsn/install/local_setup.sh'
+[75.756s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yusuf/ros2_wsn/install/_local_setup_util_sh.py'
+[75.761s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yusuf/ros2_wsn/install/setup.sh'
+[75.772s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yusuf/ros2_wsn/install/local_setup.bash'
+[75.775s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yusuf/ros2_wsn/install/setup.bash'
+[75.788s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yusuf/ros2_wsn/install/local_setup.zsh'
+[75.792s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yusuf/ros2_wsn/install/setup.zsh'

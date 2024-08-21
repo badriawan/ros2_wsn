@@ -1,0 +1,17 @@
+[0.026s] Invoking command in '/home/yusuf/ros2_wsn/build/robot_sensing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/robot_sensing -- -j8 -l8
+[0.100s] [35m[1mConsolidate compiler generated dependencies of target line_following[0m
+[0.114s] [ 37%] Built target odom_kinematic
+[0.114s] [ 50%] Built target maze_lidar
+[0.139s] [ 75%] Built target point_cloud_segmentation
+[0.140s] [ 87%] [32mBuilding CXX object CMakeFiles/line_following.dir/src/linefollowing.cpp.o[0m
+[3.759s] [01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:[m[K In member function ‘[01m[Kvoid LineFollowing::subCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.760s] [01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:93:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K_publisher[m[K’
+[3.760s]    93 |     [01;31m[K_publisher[m[K->publish(velocityMsg);
+[3.760s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.760s] [01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:52:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KKi[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.760s]    52 |     double [01;35m[KKi[m[K = get_parameter("Ki").as_double();
+[3.760s]       |            [01;35m[K^~[m[K
+[6.550s] gmake[2]: *** [CMakeFiles/line_following.dir/build.make:76: CMakeFiles/line_following.dir/src/linefollowing.cpp.o] Error 1
+[6.550s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/line_following.dir/all] Error 2
+[6.551s] gmake: *** [Makefile:146: all] Error 2
+[6.554s] Invoked command in '/home/yusuf/ros2_wsn/build/robot_sensing' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/robot_sensing -- -j8 -l8

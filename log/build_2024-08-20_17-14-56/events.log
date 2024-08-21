@@ -1,0 +1,579 @@
+[0.000000] (-) TimerEvent: {}
+[0.001085] (control_systems) JobQueued: {'identifier': 'control_systems', 'dependencies': OrderedDict()}
+[0.001544] (robot_sensing) JobQueued: {'identifier': 'robot_sensing', 'dependencies': OrderedDict()}
+[0.001936] (control_systems) JobStarted: {'identifier': 'control_systems'}
+[0.054049] (robot_sensing) JobStarted: {'identifier': 'robot_sensing'}
+[0.097598] (-) TimerEvent: {}
+[0.102014] (control_systems) JobProgress: {'identifier': 'control_systems', 'progress': 'cmake'}
+[0.106536] (control_systems) JobProgress: {'identifier': 'control_systems', 'progress': 'build'}
+[0.109687] (control_systems) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yusuf/ros2_wsn/build/control_systems', '--', '-j8', '-l8'], 'cwd': '/home/yusuf/ros2_wsn/build/control_systems', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yusuf'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yusuf'), ('OLDPWD', '/home/yusuf'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2789'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yusuf/ros2_wsn/install:/home/yusuf/assignment_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yusuf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yusuf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yusuf/.gems/bin:/opt/ros/humble/bin:/home/yusuf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yusuf-HP-ENVY-Laptop-13-ad1xx:@/tmp/.ICE-unix/2720,unix/yusuf-HP-ENVY-Laptop-13-ad1xx:/tmp/.ICE-unix/2720'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a13ce39c_cf6e_4739_9174_fdf054df9756'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.441'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yusuf/ros2_wsn/install/robot_sensing:/home/yusuf/ros2_wsn/install/control_systems:/home/yusuf/assignment_ws/install/robot_sensing_debug:/home/yusuf/assignment_ws/install/robot_sensing:/home/yusuf/assignment_ws/install/module_9_assignment:/home/yusuf/assignment_ws/install/module_8_assignment:/home/yusuf/assignment_ws/install/module_7_assignment:/home/yusuf/assignment_ws/install/module_6_assignment:/home/yusuf/assignment_ws/install/module_5_assignment:/home/yusuf/assignment_ws/install/module_4_assignment:/home/yusuf/assignment_ws/install/module_3_assignment:/home/yusuf/assignment_ws/install/module_2_assignment:/home/yusuf/assignment_ws/install/module_1_assignment:/home/yusuf/assignment_ws/install/module_10_assignment:/home/yusuf/assignment_ws/install/drive_mobile_robot:/home/yusuf/assignment_ws/install/custom_robots:/home/yusuf/assignment_ws/install/control_systems:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/yusuf/.gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yusuf/ros2_wsn/build/control_systems'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yusuf/ros2_wsn/install/robot_sensing:/home/yusuf/ros2_wsn/install/control_systems:/home/yusuf/assignment_ws/install/robot_sensing_debug:/home/yusuf/assignment_ws/install/robot_sensing:/home/yusuf/assignment_ws/install/module_9_assignment:/home/yusuf/assignment_ws/install/module_8_assignment:/home/yusuf/assignment_ws/install/module_7_assignment:/home/yusuf/assignment_ws/install/module_6_assignment:/home/yusuf/assignment_ws/install/module_5_assignment:/home/yusuf/assignment_ws/install/module_4_assignment:/home/yusuf/assignment_ws/install/module_3_assignment:/home/yusuf/assignment_ws/install/module_2_assignment:/home/yusuf/assignment_ws/install/module_1_assignment:/home/yusuf/assignment_ws/install/module_10_assignment:/home/yusuf/assignment_ws/install/drive_mobile_robot:/home/yusuf/assignment_ws/install/custom_robots:/home/yusuf/assignment_ws/install/control_systems:/opt/ros/humble')]), 'shell': False}
+[0.129482] (robot_sensing) JobProgress: {'identifier': 'robot_sensing', 'progress': 'cmake'}
+[0.140230] (robot_sensing) JobProgress: {'identifier': 'robot_sensing', 'progress': 'build'}
+[0.141326] (robot_sensing) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yusuf/ros2_wsn/build/robot_sensing', '--', '-j8', '-l8'], 'cwd': '/home/yusuf/ros2_wsn/build/robot_sensing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yusuf'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yusuf'), ('OLDPWD', '/home/yusuf'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2789'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yusuf/ros2_wsn/install:/home/yusuf/assignment_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yusuf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yusuf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yusuf/.gems/bin:/opt/ros/humble/bin:/home/yusuf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yusuf-HP-ENVY-Laptop-13-ad1xx:@/tmp/.ICE-unix/2720,unix/yusuf-HP-ENVY-Laptop-13-ad1xx:/tmp/.ICE-unix/2720'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a13ce39c_cf6e_4739_9174_fdf054df9756'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.441'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yusuf/ros2_wsn/install/robot_sensing:/home/yusuf/ros2_wsn/install/control_systems:/home/yusuf/assignment_ws/install/robot_sensing_debug:/home/yusuf/assignment_ws/install/robot_sensing:/home/yusuf/assignment_ws/install/module_9_assignment:/home/yusuf/assignment_ws/install/module_8_assignment:/home/yusuf/assignment_ws/install/module_7_assignment:/home/yusuf/assignment_ws/install/module_6_assignment:/home/yusuf/assignment_ws/install/module_5_assignment:/home/yusuf/assignment_ws/install/module_4_assignment:/home/yusuf/assignment_ws/install/module_3_assignment:/home/yusuf/assignment_ws/install/module_2_assignment:/home/yusuf/assignment_ws/install/module_1_assignment:/home/yusuf/assignment_ws/install/module_10_assignment:/home/yusuf/assignment_ws/install/drive_mobile_robot:/home/yusuf/assignment_ws/install/custom_robots:/home/yusuf/assignment_ws/install/control_systems:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/yusuf/.gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yusuf/ros2_wsn/build/robot_sensing'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yusuf/ros2_wsn/install/robot_sensing:/home/yusuf/ros2_wsn/install/control_systems:/home/yusuf/assignment_ws/install/robot_sensing_debug:/home/yusuf/assignment_ws/install/robot_sensing:/home/yusuf/assignment_ws/install/module_9_assignment:/home/yusuf/assignment_ws/install/module_8_assignment:/home/yusuf/assignment_ws/install/module_7_assignment:/home/yusuf/assignment_ws/install/module_6_assignment:/home/yusuf/assignment_ws/install/module_5_assignment:/home/yusuf/assignment_ws/install/module_4_assignment:/home/yusuf/assignment_ws/install/module_3_assignment:/home/yusuf/assignment_ws/install/module_2_assignment:/home/yusuf/assignment_ws/install/module_1_assignment:/home/yusuf/assignment_ws/install/module_10_assignment:/home/yusuf/assignment_ws/install/drive_mobile_robot:/home/yusuf/assignment_ws/install/custom_robots:/home/yusuf/assignment_ws/install/control_systems:/opt/ros/humble')]), 'shell': False}
+[0.197876] (-) TimerEvent: {}
+[0.298937] (-) TimerEvent: {}
+[0.399770] (-) TimerEvent: {}
+[0.463014] (control_systems) StdoutLine: {'line': b'[ 50%] Built target goal_planner\n'}
+[0.499945] (-) TimerEvent: {}
+[0.553203] (robot_sensing) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target line_following\x1b[0m\n'}
+[0.587443] (control_systems) StdoutLine: {'line': b'[100%] Built target goal_linear\n'}
+[0.600309] (-) TimerEvent: {}
+[0.611761] (robot_sensing) StdoutLine: {'line': b'[ 25%] Built target odom_kinematic\n'}
+[0.657665] (robot_sensing) StdoutLine: {'line': b'[ 50%] Built target maze_lidar\n'}
+[0.703151] (control_systems) CommandEnded: {'returncode': 0}
+[0.705145] (-) TimerEvent: {}
+[0.733657] (robot_sensing) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/line_following.dir/src/linefollowing.cpp.o\x1b[0m\n'}
+[0.745035] (robot_sensing) StdoutLine: {'line': b'[ 87%] Built target point_cloud_segmentation\n'}
+[0.805441] (-) TimerEvent: {}
+[0.877232] (control_systems) JobProgress: {'identifier': 'control_systems', 'progress': 'install'}
+[0.905657] (-) TimerEvent: {}
+[1.019047] (control_systems) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yusuf/ros2_wsn/build/control_systems'], 'cwd': '/home/yusuf/ros2_wsn/build/control_systems', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yusuf'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yusuf'), ('OLDPWD', '/home/yusuf'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2789'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yusuf/ros2_wsn/install:/home/yusuf/assignment_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yusuf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yusuf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yusuf/.gems/bin:/opt/ros/humble/bin:/home/yusuf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yusuf-HP-ENVY-Laptop-13-ad1xx:@/tmp/.ICE-unix/2720,unix/yusuf-HP-ENVY-Laptop-13-ad1xx:/tmp/.ICE-unix/2720'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a13ce39c_cf6e_4739_9174_fdf054df9756'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.441'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yusuf/ros2_wsn/install/robot_sensing:/home/yusuf/ros2_wsn/install/control_systems:/home/yusuf/assignment_ws/install/robot_sensing_debug:/home/yusuf/assignment_ws/install/robot_sensing:/home/yusuf/assignment_ws/install/module_9_assignment:/home/yusuf/assignment_ws/install/module_8_assignment:/home/yusuf/assignment_ws/install/module_7_assignment:/home/yusuf/assignment_ws/install/module_6_assignment:/home/yusuf/assignment_ws/install/module_5_assignment:/home/yusuf/assignment_ws/install/module_4_assignment:/home/yusuf/assignment_ws/install/module_3_assignment:/home/yusuf/assignment_ws/install/module_2_assignment:/home/yusuf/assignment_ws/install/module_1_assignment:/home/yusuf/assignment_ws/install/module_10_assignment:/home/yusuf/assignment_ws/install/drive_mobile_robot:/home/yusuf/assignment_ws/install/custom_robots:/home/yusuf/assignment_ws/install/control_systems:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/yusuf/.gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yusuf/ros2_wsn/build/control_systems'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yusuf/ros2_wsn/install/robot_sensing:/home/yusuf/ros2_wsn/install/control_systems:/home/yusuf/assignment_ws/install/robot_sensing_debug:/home/yusuf/assignment_ws/install/robot_sensing:/home/yusuf/assignment_ws/install/module_9_assignment:/home/yusuf/assignment_ws/install/module_8_assignment:/home/yusuf/assignment_ws/install/module_7_assignment:/home/yusuf/assignment_ws/install/module_6_assignment:/home/yusuf/assignment_ws/install/module_5_assignment:/home/yusuf/assignment_ws/install/module_4_assignment:/home/yusuf/assignment_ws/install/module_3_assignment:/home/yusuf/assignment_ws/install/module_2_assignment:/home/yusuf/assignment_ws/install/module_1_assignment:/home/yusuf/assignment_ws/install/module_10_assignment:/home/yusuf/assignment_ws/install/drive_mobile_robot:/home/yusuf/assignment_ws/install/custom_robots:/home/yusuf/assignment_ws/install/control_systems:/opt/ros/humble')]), 'shell': False}
+[1.022950] (-) TimerEvent: {}
+[1.065566] (control_systems) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.067398] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/lib/control_systems/goal_linear\n'}
+[1.070577] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/lib/control_systems/goal_planner\n'}
+[1.073022] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/launch\n'}
+[1.073711] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/launch/velocity_controller.launch.py\n'}
+[1.074321] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf\n'}
+[1.074904] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf/diff_drive_vel.urdf\n'}
+[1.075422] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf/diff_sens.urdf\n'}
+[1.075915] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/package_run_dependencies/control_systems\n'}
+[1.086496] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/parent_prefix_path/control_systems\n'}
+[1.094439] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/ament_prefix_path.sh\n'}
+[1.096839] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/ament_prefix_path.dsv\n'}
+[1.097545] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/path.sh\n'}
+[1.098049] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/path.dsv\n'}
+[1.098670] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.bash\n'}
+[1.099226] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.sh\n'}
+[1.100227] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.zsh\n'}
+[1.101226] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.dsv\n'}
+[1.105485] (control_systems) StdoutLine: {'line': b'-- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.dsv\n'}
+[1.130110] (-) TimerEvent: {}
+[1.130631] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/packages/control_systems\n'}
+[1.131215] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/cmake/control_systemsConfig.cmake\n'}
+[1.131743] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/cmake/control_systemsConfig-version.cmake\n'}
+[1.132353] (control_systems) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.xml\n'}
+[1.140244] (control_systems) CommandEnded: {'returncode': 0}
+[1.232278] (-) TimerEvent: {}
+[1.333520] (-) TimerEvent: {}
+[1.435627] (-) TimerEvent: {}
+[1.551878] (-) TimerEvent: {}
+[1.575897] (control_systems) JobEnded: {'identifier': 'control_systems', 'rc': 0}
+[1.652011] (-) TimerEvent: {}
+[1.752557] (-) TimerEvent: {}
+[1.853185] (-) TimerEvent: {}
+[1.954492] (-) TimerEvent: {}
+[2.055116] (-) TimerEvent: {}
+[2.155842] (-) TimerEvent: {}
+[2.256797] (-) TimerEvent: {}
+[2.357992] (-) TimerEvent: {}
+[2.459457] (-) TimerEvent: {}
+[2.562298] (-) TimerEvent: {}
+[2.663410] (-) TimerEvent: {}
+[2.764143] (-) TimerEvent: {}
+[2.864979] (-) TimerEvent: {}
+[2.965791] (-) TimerEvent: {}
+[3.067044] (-) TimerEvent: {}
+[3.167729] (-) TimerEvent: {}
+[3.268405] (-) TimerEvent: {}
+[3.369563] (-) TimerEvent: {}
+[3.470561] (-) TimerEvent: {}
+[3.571257] (-) TimerEvent: {}
+[3.672015] (-) TimerEvent: {}
+[3.773004] (-) TimerEvent: {}
+[3.874227] (-) TimerEvent: {}
+[3.974864] (-) TimerEvent: {}
+[4.075377] (-) TimerEvent: {}
+[4.176351] (-) TimerEvent: {}
+[4.277200] (-) TimerEvent: {}
+[4.377870] (-) TimerEvent: {}
+[4.478870] (-) TimerEvent: {}
+[4.580180] (-) TimerEvent: {}
+[4.681094] (-) TimerEvent: {}
+[4.782066] (-) TimerEvent: {}
+[4.883192] (-) TimerEvent: {}
+[4.983784] (-) TimerEvent: {}
+[5.084875] (-) TimerEvent: {}
+[5.185573] (-) TimerEvent: {}
+[5.287143] (-) TimerEvent: {}
+[5.388049] (-) TimerEvent: {}
+[5.489441] (-) TimerEvent: {}
+[5.590344] (-) TimerEvent: {}
+[5.690935] (-) TimerEvent: {}
+[5.791851] (-) TimerEvent: {}
+[5.893282] (-) TimerEvent: {}
+[5.994318] (-) TimerEvent: {}
+[6.095777] (-) TimerEvent: {}
+[6.197069] (-) TimerEvent: {}
+[6.298741] (-) TimerEvent: {}
+[6.399830] (-) TimerEvent: {}
+[6.500776] (-) TimerEvent: {}
+[6.601420] (-) TimerEvent: {}
+[6.702421] (-) TimerEvent: {}
+[6.803274] (-) TimerEvent: {}
+[6.904080] (-) TimerEvent: {}
+[7.004849] (-) TimerEvent: {}
+[7.105540] (-) TimerEvent: {}
+[7.206880] (-) TimerEvent: {}
+[7.307587] (-) TimerEvent: {}
+[7.408458] (-) TimerEvent: {}
+[7.509432] (-) TimerEvent: {}
+[7.610957] (-) TimerEvent: {}
+[7.712046] (-) TimerEvent: {}
+[7.813011] (-) TimerEvent: {}
+[7.913830] (-) TimerEvent: {}
+[8.014750] (-) TimerEvent: {}
+[8.115828] (-) TimerEvent: {}
+[8.216538] (-) TimerEvent: {}
+[8.317158] (-) TimerEvent: {}
+[8.418031] (-) TimerEvent: {}
+[8.519168] (-) TimerEvent: {}
+[8.620230] (-) TimerEvent: {}
+[8.720875] (-) TimerEvent: {}
+[8.821759] (-) TimerEvent: {}
+[8.922762] (-) TimerEvent: {}
+[9.023519] (-) TimerEvent: {}
+[9.124644] (-) TimerEvent: {}
+[9.225667] (-) TimerEvent: {}
+[9.327019] (-) TimerEvent: {}
+[9.427562] (-) TimerEvent: {}
+[9.528133] (-) TimerEvent: {}
+[9.628718] (-) TimerEvent: {}
+[9.729615] (-) TimerEvent: {}
+[9.830365] (-) TimerEvent: {}
+[9.931121] (-) TimerEvent: {}
+[10.032165] (-) TimerEvent: {}
+[10.134133] (-) TimerEvent: {}
+[10.235144] (-) TimerEvent: {}
+[10.335987] (-) TimerEvent: {}
+[10.436728] (-) TimerEvent: {}
+[10.537833] (-) TimerEvent: {}
+[10.638974] (-) TimerEvent: {}
+[10.739886] (-) TimerEvent: {}
+[10.842013] (-) TimerEvent: {}
+[10.943166] (-) TimerEvent: {}
+[11.044263] (-) TimerEvent: {}
+[11.144976] (-) TimerEvent: {}
+[11.245722] (-) TimerEvent: {}
+[11.346524] (-) TimerEvent: {}
+[11.447080] (-) TimerEvent: {}
+[11.547626] (-) TimerEvent: {}
+[11.648244] (-) TimerEvent: {}
+[11.749001] (-) TimerEvent: {}
+[11.849679] (-) TimerEvent: {}
+[11.950617] (-) TimerEvent: {}
+[12.052068] (-) TimerEvent: {}
+[12.152871] (-) TimerEvent: {}
+[12.253683] (-) TimerEvent: {}
+[12.355091] (-) TimerEvent: {}
+[12.456531] (-) TimerEvent: {}
+[12.557469] (-) TimerEvent: {}
+[12.658378] (-) TimerEvent: {}
+[12.759358] (-) TimerEvent: {}
+[12.859942] (-) TimerEvent: {}
+[12.960635] (-) TimerEvent: {}
+[13.061816] (-) TimerEvent: {}
+[13.162762] (-) TimerEvent: {}
+[13.263866] (-) TimerEvent: {}
+[13.365074] (-) TimerEvent: {}
+[13.465789] (-) TimerEvent: {}
+[13.567463] (-) TimerEvent: {}
+[13.670419] (-) TimerEvent: {}
+[13.771676] (-) TimerEvent: {}
+[13.872400] (-) TimerEvent: {}
+[13.973517] (-) TimerEvent: {}
+[14.074767] (-) TimerEvent: {}
+[14.175669] (-) TimerEvent: {}
+[14.276192] (-) TimerEvent: {}
+[14.377117] (-) TimerEvent: {}
+[14.478279] (-) TimerEvent: {}
+[14.579041] (-) TimerEvent: {}
+[14.679656] (-) TimerEvent: {}
+[14.780423] (-) TimerEvent: {}
+[14.881331] (-) TimerEvent: {}
+[14.983249] (-) TimerEvent: {}
+[15.083868] (-) TimerEvent: {}
+[15.184629] (-) TimerEvent: {}
+[15.286440] (-) TimerEvent: {}
+[15.387065] (-) TimerEvent: {}
+[15.487626] (-) TimerEvent: {}
+[15.588624] (-) TimerEvent: {}
+[15.689819] (-) TimerEvent: {}
+[15.791017] (-) TimerEvent: {}
+[15.891880] (-) TimerEvent: {}
+[15.992652] (-) TimerEvent: {}
+[16.093857] (-) TimerEvent: {}
+[16.194573] (-) TimerEvent: {}
+[16.295598] (-) TimerEvent: {}
+[16.396268] (-) TimerEvent: {}
+[16.496857] (-) TimerEvent: {}
+[16.597582] (-) TimerEvent: {}
+[16.698234] (-) TimerEvent: {}
+[16.799059] (-) TimerEvent: {}
+[16.900183] (-) TimerEvent: {}
+[17.002369] (-) TimerEvent: {}
+[17.103533] (-) TimerEvent: {}
+[17.204795] (-) TimerEvent: {}
+[17.305366] (-) TimerEvent: {}
+[17.405928] (-) TimerEvent: {}
+[17.506589] (-) TimerEvent: {}
+[17.607328] (-) TimerEvent: {}
+[17.708295] (-) TimerEvent: {}
+[17.808989] (-) TimerEvent: {}
+[17.909704] (-) TimerEvent: {}
+[18.010525] (-) TimerEvent: {}
+[18.111294] (-) TimerEvent: {}
+[18.211939] (-) TimerEvent: {}
+[18.312694] (-) TimerEvent: {}
+[18.413325] (-) TimerEvent: {}
+[18.514131] (-) TimerEvent: {}
+[18.614967] (-) TimerEvent: {}
+[18.715755] (-) TimerEvent: {}
+[18.816559] (-) TimerEvent: {}
+[18.917629] (-) TimerEvent: {}
+[19.019438] (-) TimerEvent: {}
+[19.120009] (-) TimerEvent: {}
+[19.220724] (-) TimerEvent: {}
+[19.321442] (-) TimerEvent: {}
+[19.422543] (-) TimerEvent: {}
+[19.523227] (-) TimerEvent: {}
+[19.624194] (-) TimerEvent: {}
+[19.724943] (-) TimerEvent: {}
+[19.825944] (-) TimerEvent: {}
+[19.927208] (-) TimerEvent: {}
+[20.027759] (-) TimerEvent: {}
+[20.128298] (-) TimerEvent: {}
+[20.228860] (-) TimerEvent: {}
+[20.329418] (-) TimerEvent: {}
+[20.430089] (-) TimerEvent: {}
+[20.530857] (-) TimerEvent: {}
+[20.631745] (-) TimerEvent: {}
+[20.733069] (-) TimerEvent: {}
+[20.833829] (-) TimerEvent: {}
+[20.934885] (-) TimerEvent: {}
+[21.035529] (-) TimerEvent: {}
+[21.136193] (-) TimerEvent: {}
+[21.237045] (-) TimerEvent: {}
+[21.338322] (-) TimerEvent: {}
+[21.439009] (-) TimerEvent: {}
+[21.539541] (-) TimerEvent: {}
+[21.640082] (-) TimerEvent: {}
+[21.740888] (-) TimerEvent: {}
+[21.842377] (-) TimerEvent: {}
+[21.943264] (-) TimerEvent: {}
+[22.043896] (-) TimerEvent: {}
+[22.145236] (-) TimerEvent: {}
+[22.247128] (-) TimerEvent: {}
+[22.348417] (-) TimerEvent: {}
+[22.449879] (-) TimerEvent: {}
+[22.551069] (-) TimerEvent: {}
+[22.652233] (-) TimerEvent: {}
+[22.752959] (-) TimerEvent: {}
+[22.853895] (-) TimerEvent: {}
+[22.954627] (-) TimerEvent: {}
+[23.055311] (-) TimerEvent: {}
+[23.156043] (-) TimerEvent: {}
+[23.257149] (-) TimerEvent: {}
+[23.357951] (-) TimerEvent: {}
+[23.459035] (-) TimerEvent: {}
+[23.560355] (-) TimerEvent: {}
+[23.661221] (-) TimerEvent: {}
+[23.761953] (-) TimerEvent: {}
+[23.862945] (-) TimerEvent: {}
+[23.963640] (-) TimerEvent: {}
+[24.064240] (-) TimerEvent: {}
+[24.165057] (-) TimerEvent: {}
+[24.265647] (-) TimerEvent: {}
+[24.366313] (-) TimerEvent: {}
+[24.467062] (-) TimerEvent: {}
+[24.567725] (-) TimerEvent: {}
+[24.668540] (-) TimerEvent: {}
+[24.769846] (-) TimerEvent: {}
+[24.870474] (-) TimerEvent: {}
+[24.971189] (-) TimerEvent: {}
+[25.071698] (-) TimerEvent: {}
+[25.172284] (-) TimerEvent: {}
+[25.272755] (-) TimerEvent: {}
+[25.373365] (-) TimerEvent: {}
+[25.474119] (-) TimerEvent: {}
+[25.575402] (-) TimerEvent: {}
+[25.675991] (-) TimerEvent: {}
+[25.776630] (-) TimerEvent: {}
+[25.877662] (-) TimerEvent: {}
+[25.979636] (-) TimerEvent: {}
+[26.080928] (-) TimerEvent: {}
+[26.181642] (-) TimerEvent: {}
+[26.282629] (-) TimerEvent: {}
+[26.383883] (-) TimerEvent: {}
+[26.485256] (-) TimerEvent: {}
+[26.586511] (-) TimerEvent: {}
+[26.687501] (-) TimerEvent: {}
+[26.788071] (-) TimerEvent: {}
+[26.888642] (-) TimerEvent: {}
+[26.989299] (-) TimerEvent: {}
+[27.089903] (-) TimerEvent: {}
+[27.191023] (-) TimerEvent: {}
+[27.292034] (-) TimerEvent: {}
+[27.392501] (-) TimerEvent: {}
+[27.493122] (-) TimerEvent: {}
+[27.594308] (-) TimerEvent: {}
+[27.695317] (-) TimerEvent: {}
+[27.796030] (-) TimerEvent: {}
+[27.896973] (-) TimerEvent: {}
+[27.997586] (-) TimerEvent: {}
+[28.098193] (-) TimerEvent: {}
+[28.198762] (-) TimerEvent: {}
+[28.299748] (-) TimerEvent: {}
+[28.400734] (-) TimerEvent: {}
+[28.501583] (-) TimerEvent: {}
+[28.602457] (-) TimerEvent: {}
+[28.703680] (-) TimerEvent: {}
+[28.804477] (-) TimerEvent: {}
+[28.905834] (-) TimerEvent: {}
+[29.006675] (-) TimerEvent: {}
+[29.107484] (-) TimerEvent: {}
+[29.208257] (-) TimerEvent: {}
+[29.309050] (-) TimerEvent: {}
+[29.409598] (-) TimerEvent: {}
+[29.510614] (-) TimerEvent: {}
+[29.611174] (-) TimerEvent: {}
+[29.711721] (-) TimerEvent: {}
+[29.812235] (-) TimerEvent: {}
+[29.912934] (-) TimerEvent: {}
+[30.014110] (-) TimerEvent: {}
+[30.114727] (-) TimerEvent: {}
+[30.215603] (-) TimerEvent: {}
+[30.316720] (-) TimerEvent: {}
+[30.417607] (-) TimerEvent: {}
+[30.518501] (-) TimerEvent: {}
+[30.619467] (-) TimerEvent: {}
+[30.720646] (-) TimerEvent: {}
+[30.821700] (-) TimerEvent: {}
+[30.923859] (-) TimerEvent: {}
+[31.024838] (-) TimerEvent: {}
+[31.125585] (-) TimerEvent: {}
+[31.227072] (-) TimerEvent: {}
+[31.328496] (-) TimerEvent: {}
+[31.430400] (-) TimerEvent: {}
+[31.532700] (-) TimerEvent: {}
+[31.633437] (-) TimerEvent: {}
+[31.734310] (-) TimerEvent: {}
+[31.835683] (-) TimerEvent: {}
+[31.936426] (-) TimerEvent: {}
+[32.037196] (-) TimerEvent: {}
+[32.138236] (-) TimerEvent: {}
+[32.239216] (-) TimerEvent: {}
+[32.339941] (-) TimerEvent: {}
+[32.440661] (-) TimerEvent: {}
+[32.541554] (-) TimerEvent: {}
+[32.642364] (-) TimerEvent: {}
+[32.743239] (-) TimerEvent: {}
+[32.843797] (-) TimerEvent: {}
+[32.944446] (-) TimerEvent: {}
+[33.045033] (-) TimerEvent: {}
+[33.145978] (-) TimerEvent: {}
+[33.246963] (-) TimerEvent: {}
+[33.348189] (-) TimerEvent: {}
+[33.449422] (-) TimerEvent: {}
+[33.550548] (-) TimerEvent: {}
+[33.651413] (-) TimerEvent: {}
+[33.752231] (-) TimerEvent: {}
+[33.853039] (-) TimerEvent: {}
+[33.953643] (-) TimerEvent: {}
+[34.054610] (-) TimerEvent: {}
+[34.155513] (-) TimerEvent: {}
+[34.256268] (-) TimerEvent: {}
+[34.356954] (-) TimerEvent: {}
+[34.457549] (-) TimerEvent: {}
+[34.558467] (-) TimerEvent: {}
+[34.659234] (-) TimerEvent: {}
+[34.760143] (-) TimerEvent: {}
+[34.860804] (-) TimerEvent: {}
+[34.961763] (-) TimerEvent: {}
+[35.062804] (-) TimerEvent: {}
+[35.163587] (-) TimerEvent: {}
+[35.265870] (-) TimerEvent: {}
+[35.366823] (-) TimerEvent: {}
+[35.467372] (-) TimerEvent: {}
+[35.567998] (-) TimerEvent: {}
+[35.668732] (-) TimerEvent: {}
+[35.769703] (-) TimerEvent: {}
+[35.870824] (-) TimerEvent: {}
+[35.972013] (-) TimerEvent: {}
+[36.073411] (-) TimerEvent: {}
+[36.174591] (-) TimerEvent: {}
+[36.275169] (-) TimerEvent: {}
+[36.375854] (-) TimerEvent: {}
+[36.477315] (-) TimerEvent: {}
+[36.578517] (-) TimerEvent: {}
+[36.679778] (-) TimerEvent: {}
+[36.780868] (-) TimerEvent: {}
+[36.881656] (-) TimerEvent: {}
+[36.982995] (-) TimerEvent: {}
+[37.083797] (-) TimerEvent: {}
+[37.184802] (-) TimerEvent: {}
+[37.286205] (-) TimerEvent: {}
+[37.387321] (-) TimerEvent: {}
+[37.488036] (-) TimerEvent: {}
+[37.588524] (-) TimerEvent: {}
+[37.689057] (-) TimerEvent: {}
+[37.789604] (-) TimerEvent: {}
+[37.890599] (-) TimerEvent: {}
+[37.992283] (-) TimerEvent: {}
+[38.093572] (-) TimerEvent: {}
+[38.194837] (-) TimerEvent: {}
+[38.295638] (-) TimerEvent: {}
+[38.396243] (-) TimerEvent: {}
+[38.497068] (-) TimerEvent: {}
+[38.597727] (-) TimerEvent: {}
+[38.698853] (-) TimerEvent: {}
+[38.799777] (-) TimerEvent: {}
+[38.900366] (-) TimerEvent: {}
+[39.001453] (-) TimerEvent: {}
+[39.102753] (-) TimerEvent: {}
+[39.203669] (-) TimerEvent: {}
+[39.304386] (-) TimerEvent: {}
+[39.405215] (-) TimerEvent: {}
+[39.505948] (-) TimerEvent: {}
+[39.607023] (-) TimerEvent: {}
+[39.708008] (-) TimerEvent: {}
+[39.808757] (-) TimerEvent: {}
+[39.909552] (-) TimerEvent: {}
+[40.010401] (-) TimerEvent: {}
+[40.111100] (-) TimerEvent: {}
+[40.211897] (-) TimerEvent: {}
+[40.312711] (-) TimerEvent: {}
+[40.413439] (-) TimerEvent: {}
+[40.514596] (-) TimerEvent: {}
+[40.615927] (-) TimerEvent: {}
+[40.716645] (-) TimerEvent: {}
+[40.817496] (-) TimerEvent: {}
+[40.918430] (-) TimerEvent: {}
+[41.019349] (-) TimerEvent: {}
+[41.121449] (-) TimerEvent: {}
+[41.222436] (-) TimerEvent: {}
+[41.323907] (-) TimerEvent: {}
+[41.425391] (-) TimerEvent: {}
+[41.526277] (-) TimerEvent: {}
+[41.626914] (-) TimerEvent: {}
+[41.727956] (-) TimerEvent: {}
+[41.829573] (-) TimerEvent: {}
+[41.930628] (-) TimerEvent: {}
+[42.031802] (-) TimerEvent: {}
+[42.132760] (-) TimerEvent: {}
+[42.233548] (-) TimerEvent: {}
+[42.334280] (-) TimerEvent: {}
+[42.434854] (-) TimerEvent: {}
+[42.535500] (-) TimerEvent: {}
+[42.636129] (-) TimerEvent: {}
+[42.736731] (-) TimerEvent: {}
+[42.837591] (-) TimerEvent: {}
+[42.938354] (-) TimerEvent: {}
+[43.039128] (-) TimerEvent: {}
+[43.139971] (-) TimerEvent: {}
+[43.240946] (-) TimerEvent: {}
+[43.341771] (-) TimerEvent: {}
+[43.442845] (-) TimerEvent: {}
+[43.543801] (-) TimerEvent: {}
+[43.644826] (-) TimerEvent: {}
+[43.745459] (-) TimerEvent: {}
+[43.846480] (-) TimerEvent: {}
+[43.946976] (-) TimerEvent: {}
+[44.047542] (-) TimerEvent: {}
+[44.148138] (-) TimerEvent: {}
+[44.248843] (-) TimerEvent: {}
+[44.349689] (-) TimerEvent: {}
+[44.450608] (-) TimerEvent: {}
+[44.551236] (-) TimerEvent: {}
+[44.652190] (-) TimerEvent: {}
+[44.752799] (-) TimerEvent: {}
+[44.853459] (-) TimerEvent: {}
+[44.954437] (-) TimerEvent: {}
+[45.055629] (-) TimerEvent: {}
+[45.156468] (-) TimerEvent: {}
+[45.257116] (-) TimerEvent: {}
+[45.358269] (-) TimerEvent: {}
+[45.459091] (-) TimerEvent: {}
+[45.559948] (-) TimerEvent: {}
+[45.662396] (-) TimerEvent: {}
+[45.764400] (-) TimerEvent: {}
+[45.865569] (-) TimerEvent: {}
+[45.966508] (-) TimerEvent: {}
+[46.067625] (-) TimerEvent: {}
+[46.118000] (robot_sensing) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable line_following\x1b[0m\n'}
+[46.167766] (-) TimerEvent: {}
+[46.268840] (-) TimerEvent: {}
+[46.369820] (-) TimerEvent: {}
+[46.471080] (-) TimerEvent: {}
+[46.572147] (-) TimerEvent: {}
+[46.673210] (-) TimerEvent: {}
+[46.774293] (-) TimerEvent: {}
+[46.876373] (-) TimerEvent: {}
+[46.977827] (-) TimerEvent: {}
+[47.078767] (-) TimerEvent: {}
+[47.179752] (-) TimerEvent: {}
+[47.281506] (-) TimerEvent: {}
+[47.382223] (-) TimerEvent: {}
+[47.483325] (-) TimerEvent: {}
+[47.585124] (-) TimerEvent: {}
+[47.685808] (-) TimerEvent: {}
+[47.786806] (-) TimerEvent: {}
+[47.887904] (-) TimerEvent: {}
+[47.988735] (-) TimerEvent: {}
+[48.089946] (-) TimerEvent: {}
+[48.191223] (-) TimerEvent: {}
+[48.292325] (-) TimerEvent: {}
+[48.393415] (-) TimerEvent: {}
+[48.494267] (-) TimerEvent: {}
+[48.595107] (-) TimerEvent: {}
+[48.696087] (-) TimerEvent: {}
+[48.796945] (-) TimerEvent: {}
+[48.897651] (-) TimerEvent: {}
+[48.998445] (-) TimerEvent: {}
+[49.099787] (-) TimerEvent: {}
+[49.200955] (-) TimerEvent: {}
+[49.302010] (-) TimerEvent: {}
+[49.402624] (-) TimerEvent: {}
+[49.503341] (-) TimerEvent: {}
+[49.604312] (-) TimerEvent: {}
+[49.704966] (-) TimerEvent: {}
+[49.805832] (-) TimerEvent: {}
+[49.844596] (robot_sensing) StdoutLine: {'line': b'[100%] Built target line_following\n'}
+[49.888516] (robot_sensing) CommandEnded: {'returncode': 0}
+[49.906122] (-) TimerEvent: {}
+[50.006794] (-) TimerEvent: {}
+[50.035573] (robot_sensing) JobProgress: {'identifier': 'robot_sensing', 'progress': 'install'}
+[50.039086] (robot_sensing) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yusuf/ros2_wsn/build/robot_sensing'], 'cwd': '/home/yusuf/ros2_wsn/build/robot_sensing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yusuf'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yusuf'), ('OLDPWD', '/home/yusuf'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '2789'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/yusuf/ros2_wsn/install:/home/yusuf/assignment_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'yusuf'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yusuf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yusuf/.gems/bin:/opt/ros/humble/bin:/home/yusuf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yusuf-HP-ENVY-Laptop-13-ad1xx:@/tmp/.ICE-unix/2720,unix/yusuf-HP-ENVY-Laptop-13-ad1xx:/tmp/.ICE-unix/2720'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a13ce39c_cf6e_4739_9174_fdf054df9756'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.441'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yusuf/ros2_wsn/install/robot_sensing:/home/yusuf/ros2_wsn/install/control_systems:/home/yusuf/assignment_ws/install/robot_sensing_debug:/home/yusuf/assignment_ws/install/robot_sensing:/home/yusuf/assignment_ws/install/module_9_assignment:/home/yusuf/assignment_ws/install/module_8_assignment:/home/yusuf/assignment_ws/install/module_7_assignment:/home/yusuf/assignment_ws/install/module_6_assignment:/home/yusuf/assignment_ws/install/module_5_assignment:/home/yusuf/assignment_ws/install/module_4_assignment:/home/yusuf/assignment_ws/install/module_3_assignment:/home/yusuf/assignment_ws/install/module_2_assignment:/home/yusuf/assignment_ws/install/module_1_assignment:/home/yusuf/assignment_ws/install/module_10_assignment:/home/yusuf/assignment_ws/install/drive_mobile_robot:/home/yusuf/assignment_ws/install/custom_robots:/home/yusuf/assignment_ws/install/control_systems:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GEM_HOME', '/home/yusuf/.gems'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yusuf/ros2_wsn/build/robot_sensing'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yusuf/ros2_wsn/install/robot_sensing:/home/yusuf/ros2_wsn/install/control_systems:/home/yusuf/assignment_ws/install/robot_sensing_debug:/home/yusuf/assignment_ws/install/robot_sensing:/home/yusuf/assignment_ws/install/module_9_assignment:/home/yusuf/assignment_ws/install/module_8_assignment:/home/yusuf/assignment_ws/install/module_7_assignment:/home/yusuf/assignment_ws/install/module_6_assignment:/home/yusuf/assignment_ws/install/module_5_assignment:/home/yusuf/assignment_ws/install/module_4_assignment:/home/yusuf/assignment_ws/install/module_3_assignment:/home/yusuf/assignment_ws/install/module_2_assignment:/home/yusuf/assignment_ws/install/module_1_assignment:/home/yusuf/assignment_ws/install/module_10_assignment:/home/yusuf/assignment_ws/install/drive_mobile_robot:/home/yusuf/assignment_ws/install/custom_robots:/home/yusuf/assignment_ws/install/control_systems:/opt/ros/humble')]), 'shell': False}
+[50.074289] (robot_sensing) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[50.075326] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/lib/robot_sensing/maze_lidar\n'}
+[50.076776] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/lib/robot_sensing/odom_kinematic\n'}
+[50.079775] (robot_sensing) StdoutLine: {'line': b'-- Installing: /home/yusuf/ros2_wsn/install/robot_sensing/lib/robot_sensing/line_following\n'}
+[50.104147] (robot_sensing) StdoutLine: {'line': b'-- Set runtime path of "/home/yusuf/ros2_wsn/install/robot_sensing/lib/robot_sensing/line_following" to ""\n'}
+[50.104969] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/lib/robot_sensing/point_cloud_segmentation\n'}
+[50.105881] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/launch\n'}
+[50.107357] (-) TimerEvent: {}
+[50.108565] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/launch/maze_world.launch.py\n'}
+[50.109588] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/launch/line_world.launch.py\n'}
+[50.110053] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/world\n'}
+[50.110432] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/world/maze.world\n'}
+[50.110966] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/world/linefollowing.world\n'}
+[50.111421] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/ament_index/resource_index/package_run_dependencies/robot_sensing\n'}
+[50.111751] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/ament_index/resource_index/parent_prefix_path/robot_sensing\n'}
+[50.112072] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/environment/ament_prefix_path.sh\n'}
+[50.112432] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/environment/ament_prefix_path.dsv\n'}
+[50.112863] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/environment/path.sh\n'}
+[50.113555] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/environment/path.dsv\n'}
+[50.114248] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/local_setup.bash\n'}
+[50.114768] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/local_setup.sh\n'}
+[50.115230] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/local_setup.zsh\n'}
+[50.115630] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/local_setup.dsv\n'}
+[50.116147] (robot_sensing) StdoutLine: {'line': b'-- Installing: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.dsv\n'}
+[50.121984] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/ament_index/resource_index/packages/robot_sensing\n'}
+[50.122677] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/cmake/robot_sensingConfig.cmake\n'}
+[50.125612] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/cmake/robot_sensingConfig-version.cmake\n'}
+[50.126509] (robot_sensing) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/ros2_wsn/install/robot_sensing/share/robot_sensing/package.xml\n'}
+[50.126978] (robot_sensing) CommandEnded: {'returncode': 0}
+[50.207619] (-) TimerEvent: {}
+[50.308590] (-) TimerEvent: {}
+[50.401330] (robot_sensing) JobEnded: {'identifier': 'robot_sensing', 'rc': 0}
+[50.406615] (-) EventReactorShutdown: {}

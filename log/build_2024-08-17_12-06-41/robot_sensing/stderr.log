@@ -1,0 +1,19 @@
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:[m[K In constructor ‘[01m[KLineFollowing::LineFollowing()[m[K’:
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_subscriber[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+   24 |     [01;31m[K_subscriber[m[K = this->create_subscription<sensor_msgs::msg::Image>(
+      |     [01;31m[K^~~~~~~~~~~[m[K
+      |     [32m[Kcount_subscribers[m[K
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[K_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   27 |     [01;31m[K_publisher[m[K = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:[m[K At global scope:
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:127:32:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K_timer[m[K’
+  127 |   rclcpp::TimerBase::SharedPtr [01;31m[K_timer[m[K;
+      |                                [01;31m[K^~~~~~[m[K
+[01m[K/home/yusuf/ros2_wsn/src/robot_sensing/src/linefollowing.cpp:132:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  132 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/line_following.dir/build.make:76: CMakeFiles/line_following.dir/src/linefollowing.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/line_following.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

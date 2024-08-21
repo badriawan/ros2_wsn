@@ -1,0 +1,30 @@
+[0.125s] Invoking command in '/home/yusuf/ros2_wsn/build/control_systems': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/control_systems -- -j8 -l8
+[0.579s] [ 50%] Built target goal_linear
+[0.695s] [35m[1mConsolidate compiler generated dependencies of target goal_planner[0m
+[0.923s] [100%] Built target goal_planner
+[1.012s] Invoked command in '/home/yusuf/ros2_wsn/build/control_systems' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/control_systems -- -j8 -l8
+[1.278s] Invoking command in '/home/yusuf/ros2_wsn/build/control_systems': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/control_systems
+[1.333s] -- Install configuration: ""
+[1.338s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/lib/control_systems/goal_linear
+[1.339s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/lib/control_systems/goal_planner
+[1.354s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/launch
+[1.355s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/launch/velocity_controller.launch.py
+[1.355s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf
+[1.356s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf/diff_drive_vel.urdf
+[1.357s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/urdf/diff_sens.urdf
+[1.383s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/package_run_dependencies/control_systems
+[1.383s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/parent_prefix_path/control_systems
+[1.384s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/ament_prefix_path.sh
+[1.384s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/ament_prefix_path.dsv
+[1.385s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/path.sh
+[1.385s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/environment/path.dsv
+[1.386s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.bash
+[1.387s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.sh
+[1.389s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.zsh
+[1.390s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/local_setup.dsv
+[1.391s] -- Installing: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.dsv
+[1.416s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/ament_index/resource_index/packages/control_systems
+[1.418s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/cmake/control_systemsConfig.cmake
+[1.419s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/cmake/control_systemsConfig-version.cmake
+[1.421s] -- Up-to-date: /home/yusuf/ros2_wsn/install/control_systems/share/control_systems/package.xml
+[1.423s] Invoked command in '/home/yusuf/ros2_wsn/build/control_systems' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/control_systems
