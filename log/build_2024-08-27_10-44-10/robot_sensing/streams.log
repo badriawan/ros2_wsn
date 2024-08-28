@@ -1,0 +1,8 @@
+[0.030s] Invoking command in '/home/yusuf/ros2_wsn/build/robot_sensing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/robot_sensing -- -j8 -l8
+[0.167s] [35m[1mConsolidate compiler generated dependencies of target line_following[0m
+[0.190s] [ 25%] Built target odom_kinematic
+[0.193s] [ 50%] Built target maze_lidar
+[0.201s] [ 75%] Built target point_cloud_segmentation
+[0.203s] [ 87%] [32mBuilding CXX object CMakeFiles/line_following.dir/src/linefollowing.cpp.o[0m
+[11.758s] [100%] [32m[1mLinking CXX executable line_following[0m
+[12.791s] [100%] Built target line_following

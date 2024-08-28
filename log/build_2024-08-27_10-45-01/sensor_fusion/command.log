@@ -1,0 +1,6 @@
+Invoking command in '/home/yusuf/ros2_wsn/build/sensor_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_wsn/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_wsn/install/sensor_fusion
+Invoked command in '/home/yusuf/ros2_wsn/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_wsn/src/sensor_fusion -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_wsn/install/sensor_fusion
+Invoking command in '/home/yusuf/ros2_wsn/build/sensor_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/sensor_fusion -- -j8 -l8
+Invoked command in '/home/yusuf/ros2_wsn/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/sensor_fusion -- -j8 -l8
+Invoking command in '/home/yusuf/ros2_wsn/build/sensor_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/sensor_fusion
+Invoked command in '/home/yusuf/ros2_wsn/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/sensor_fusion

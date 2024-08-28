@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(robot_sensing)
+project(sensor_fusion)
 
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
@@ -19,56 +19,30 @@ find_package(tf2_ros REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
+find_package(visualization_msgs REQUIRED)
 
 
-find_package(PCL REQUIRED)
-find_package(pcl_conversions REQUIRED)
-include_directories(${PCL_INCLUDE_DIRS})
-link_directories(${PCL_LIBRARY_DIRS})
-add_definitions(${PCL_DEFINITIONS})
+# find_package(PCL REQUIRED)
+# find_package(pcl_conversions REQUIRED)
+# include_directories(${PCL_INCLUDE_DIRS})
+# link_directories(${PCL_LIBRARY_DIRS})
+# add_definitions(${PCL_DEFINITIONS})
 
+add_executable(linear_kf src/linear_kf.cpp)
+ament_target_dependencies(linear_kf rclcpp visualization_msgs nav_msgs)
 
-
-
-
-
-# add_executable(talker src/publisher.cpp)
-# ament_target_dependencies(talker rclcpp std_msgs)
-
-# add_executable(listener src/subscriber.cpp)
-# ament_target_dependencies(listener rclcpp std_msgs)
-
-# add_executable(drive_turtle src/drive_turtle.cpp)
-# ament_target_dependencies(drive_turtle rclcpp std_msgs geometry_msgs)
-
-# add_executable(tf_static src/tf_static.cpp)
-# ament_target_dependencies(tf_static rclcpp std_msgs geometry_msgs tf2_ros)
-
-add_executable(odom_kinematic src/odom_kinematic.cpp)
-ament_target_dependencies(odom_kinematic rclcpp std_msgs geometry_msgs nav_msgs)
-
-add_executable(maze_lidar src/maze_solving_with_lidar.cpp)
-ament_target_dependencies(maze_lidar rclcpp sensor_msgs)
-
-add_executable(line_following src/linefollowing.cpp)
-ament_target_dependencies(line_following rclcpp sensor_msgs geometry_msgs cv_bridge)
-target_link_libraries(line_following ${OpenCV_LIBS})
-
-add_executable(point_cloud_segmentation src/point_cloud_segmentation.cpp)
-ament_target_dependencies(point_cloud_segmentation rclcpp sensor_msgs PCL pcl_conversions )
-target_link_libraries(point_cloud_segmentation ${PCL_LIBRARIES})
+add_executable(advanced_kf src/advanced_kf.cpp)
+ament_target_dependencies(advanced_kf rclcpp visualization_msgs nav_msgs)
 
 
 install(TARGETS
- maze_lidar
- odom_kinematic
- line_following
- point_cloud_segmentation
+ linear_kf
+ advanced_kf
   DESTINATION lib/${PROJECT_NAME})
-
+  
 install(DIRECTORY
   launch
-  world
+  config
   DESTINATION share/${PROJECT_NAME})
 
 ament_package()
