@@ -40,6 +40,12 @@ def generate_launch_description():
         'empty.world'
     )
 
+    rviz2_config = os.path.join(
+        get_package_share_directory('sensor_fusion'),
+        'config',
+        'kf.rviz'
+    )
+
     gzserver_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(pkg_gazebo_ros, 'launch', 'gzserver.launch.py')
@@ -76,6 +82,20 @@ def generate_launch_description():
         executable = 'linear_kf',
     )
 
+    advanced_kf = Node(
+        package = 'sensor_fusion',
+        name = 'advanced_kf',
+        executable = 'advanced_kf',
+    )
+
+    rviz2 = Node(
+        package = 'rviz2',
+        name = 'rviz2',
+        executable = 'rviz2',
+        output='screen',
+        arguments=['-d', rviz2_config], 
+    )
+
     ld = LaunchDescription()
 
     # Add the commands to the launch description
@@ -83,6 +103,8 @@ def generate_launch_description():
     ld.add_action(gzclient_cmd)
     ld.add_action(robot_state_publisher_cmd)
     ld.add_action(spawn_turtlebot_cmd)
-    ld.add_action(linear_kf)
+    ld.add_action(advanced_kf)
+    ld.add_action(rviz2)
+
 
     return ld

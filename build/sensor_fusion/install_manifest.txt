@@ -1,5 +1,7 @@
 /home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/linear_kf
+/home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/advanced_kf
 /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/launch/linear_kf.launch.py
+/home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/config/kf.rviz
 /home/yusuf/ros2_wsn/install/sensor_fusion/share/ament_index/resource_index/package_run_dependencies/sensor_fusion
 /home/yusuf/ros2_wsn/install/sensor_fusion/share/ament_index/resource_index/parent_prefix_path/sensor_fusion
 /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.sh

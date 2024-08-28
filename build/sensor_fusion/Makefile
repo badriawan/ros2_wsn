@@ -210,6 +210,43 @@ linear_kf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_kf.dir/build.make CMakeFiles/linear_kf.dir/build
 .PHONY : linear_kf/fast
 
+#=============================================================================
+# Target rules for targets named advanced_kf
+
+# Build rule for target.
+advanced_kf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 advanced_kf
+.PHONY : advanced_kf
+
+# fast build rule for target.
+advanced_kf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advanced_kf.dir/build.make CMakeFiles/advanced_kf.dir/build
+.PHONY : advanced_kf/fast
+
+src/advanced_kf.o: src/advanced_kf.cpp.o
+.PHONY : src/advanced_kf.o
+
+# target to build an object file
+src/advanced_kf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advanced_kf.dir/build.make CMakeFiles/advanced_kf.dir/src/advanced_kf.cpp.o
+.PHONY : src/advanced_kf.cpp.o
+
+src/advanced_kf.i: src/advanced_kf.cpp.i
+.PHONY : src/advanced_kf.i
+
+# target to preprocess a source file
+src/advanced_kf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advanced_kf.dir/build.make CMakeFiles/advanced_kf.dir/src/advanced_kf.cpp.i
+.PHONY : src/advanced_kf.cpp.i
+
+src/advanced_kf.s: src/advanced_kf.cpp.s
+.PHONY : src/advanced_kf.s
+
+# target to generate assembly for a file
+src/advanced_kf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/advanced_kf.dir/build.make CMakeFiles/advanced_kf.dir/src/advanced_kf.cpp.s
+.PHONY : src/advanced_kf.cpp.s
+
 src/linear_kf.o: src/linear_kf.cpp.o
 .PHONY : src/linear_kf.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... sensor_fusion_uninstall"
 	@echo "... uninstall"
+	@echo "... advanced_kf"
 	@echo "... linear_kf"
+	@echo "... src/advanced_kf.o"
+	@echo "... src/advanced_kf.i"
+	@echo "... src/advanced_kf.s"
 	@echo "... src/linear_kf.o"
 	@echo "... src/linear_kf.i"
 	@echo "... src/linear_kf.s"

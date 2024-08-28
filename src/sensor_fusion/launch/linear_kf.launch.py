@@ -82,6 +82,12 @@ def generate_launch_description():
         executable = 'linear_kf',
     )
 
+    advanced_kf = Node(
+        package = 'sensor_fusion',
+        name = 'advanced_kf',
+        executable = 'advanced_kf',
+    )
+
     rviz2 = Node(
         package = 'rviz2',
         name = 'rviz2',
@@ -97,7 +103,7 @@ def generate_launch_description():
     ld.add_action(gzclient_cmd)
     ld.add_action(robot_state_publisher_cmd)
     ld.add_action(spawn_turtlebot_cmd)
-    ld.add_action(linear_kf)
+    ld.add_action(advanced_kf)
     ld.add_action(rviz2)
 
 
