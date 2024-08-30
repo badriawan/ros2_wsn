@@ -223,6 +223,19 @@ advanced_kf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/advanced_kf.dir/build.make CMakeFiles/advanced_kf.dir/build
 .PHONY : advanced_kf/fast
 
+#=============================================================================
+# Target rules for targets named noise_kf
+
+# Build rule for target.
+noise_kf: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 noise_kf
+.PHONY : noise_kf
+
+# fast build rule for target.
+noise_kf/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/noise_kf.dir/build.make CMakeFiles/noise_kf.dir/build
+.PHONY : noise_kf/fast
+
 src/advanced_kf.o: src/advanced_kf.cpp.o
 .PHONY : src/advanced_kf.o
 
@@ -271,6 +284,30 @@ src/linear_kf.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linear_kf.dir/build.make CMakeFiles/linear_kf.dir/src/linear_kf.cpp.s
 .PHONY : src/linear_kf.cpp.s
 
+src/noise_kf.o: src/noise_kf.cpp.o
+.PHONY : src/noise_kf.o
+
+# target to build an object file
+src/noise_kf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/noise_kf.dir/build.make CMakeFiles/noise_kf.dir/src/noise_kf.cpp.o
+.PHONY : src/noise_kf.cpp.o
+
+src/noise_kf.i: src/noise_kf.cpp.i
+.PHONY : src/noise_kf.i
+
+# target to preprocess a source file
+src/noise_kf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/noise_kf.dir/build.make CMakeFiles/noise_kf.dir/src/noise_kf.cpp.i
+.PHONY : src/noise_kf.cpp.i
+
+src/noise_kf.s: src/noise_kf.cpp.s
+.PHONY : src/noise_kf.s
+
+# target to generate assembly for a file
+src/noise_kf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/noise_kf.dir/build.make CMakeFiles/noise_kf.dir/src/noise_kf.cpp.s
+.PHONY : src/noise_kf.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +325,16 @@ help:
 	@echo "... uninstall"
 	@echo "... advanced_kf"
 	@echo "... linear_kf"
+	@echo "... noise_kf"
 	@echo "... src/advanced_kf.o"
 	@echo "... src/advanced_kf.i"
 	@echo "... src/advanced_kf.s"
 	@echo "... src/linear_kf.o"
 	@echo "... src/linear_kf.i"
 	@echo "... src/linear_kf.s"
+	@echo "... src/noise_kf.o"
+	@echo "... src/noise_kf.i"
+	@echo "... src/noise_kf.s"
 .PHONY : help
 
 

@@ -20,6 +20,8 @@ find_package(sensor_msgs REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(visualization_msgs REQUIRED)
+find_package(Eigen3 REQUIRED)
+
 
 
 # find_package(PCL REQUIRED)
@@ -34,10 +36,16 @@ ament_target_dependencies(linear_kf rclcpp visualization_msgs nav_msgs)
 add_executable(advanced_kf src/advanced_kf.cpp)
 ament_target_dependencies(advanced_kf rclcpp visualization_msgs nav_msgs)
 
+add_executable(noise_kf src/noise_kf.cpp)
+ament_target_dependencies(noise_kf rclcpp visualization_msgs nav_msgs)
+target_include_directories(noise_kf PRIVATE ${EIGEN_INCLUDE_DIR} include)
+target_link_libraries(noise_kf Eigen3::Eigen)
+
 
 install(TARGETS
  linear_kf
  advanced_kf
+ noise_kf
   DESTINATION lib/${PROJECT_NAME})
   
 install(DIRECTORY
