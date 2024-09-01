@@ -1,0 +1,7 @@
+[35m[1mConsolidate compiler generated dependencies of target noise_kf[0m
+[35m[1mConsolidate compiler generated dependencies of target advanced_kf[0m
+[ 33%] Built target linear_kf
+[ 50%] [32mBuilding CXX object CMakeFiles/noise_kf.dir/src/noise_kf.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/advanced_kf.dir/src/advanced_kf.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable advanced_kf[0m
+[ 83%] Built target advanced_kf

@@ -1,0 +1,35 @@
+[0.030s] Invoking command in '/home/yusuf/ros2_wsn/build/sensor_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/sensor_fusion -- -j8 -l8
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target noise_kf[0m
+[0.151s] [ 66%] Built target advanced_kf
+[0.151s] [ 66%] Built target linear_kf
+[0.159s] [ 83%] [32mBuilding CXX object CMakeFiles/noise_kf.dir/src/noise_kf.cpp.o[0m
+[15.638s] [100%] [32m[1mLinking CXX executable noise_kf[0m
+[16.496s] [100%] Built target noise_kf
+[16.511s] Invoked command in '/home/yusuf/ros2_wsn/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/sensor_fusion -- -j8 -l8
+[16.558s] Invoking command in '/home/yusuf/ros2_wsn/build/sensor_fusion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/sensor_fusion
+[16.568s] -- Install configuration: ""
+[16.568s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/linear_kf
+[16.569s] -- Installing: /home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/advanced_kf
+[16.580s] -- Set runtime path of "/home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/advanced_kf" to ""
+[16.580s] -- Installing: /home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/noise_kf
+[16.591s] -- Set runtime path of "/home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/noise_kf" to ""
+[16.591s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/launch
+[16.592s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/launch/linear_kf.launch.py
+[16.592s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/config
+[16.592s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/config/kf.rviz
+[16.592s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/ament_index/resource_index/package_run_dependencies/sensor_fusion
+[16.592s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/ament_index/resource_index/parent_prefix_path/sensor_fusion
+[16.592s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.sh
+[16.592s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.dsv
+[16.592s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/environment/path.sh
+[16.592s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/environment/path.dsv
+[16.592s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/local_setup.bash
+[16.593s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/local_setup.sh
+[16.593s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/local_setup.zsh
+[16.593s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/local_setup.dsv
+[16.593s] -- Installing: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/package.dsv
+[16.593s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/ament_index/resource_index/packages/sensor_fusion
+[16.593s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig.cmake
+[16.593s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig-version.cmake
+[16.593s] -- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/package.xml
+[16.595s] Invoked command in '/home/yusuf/ros2_wsn/build/sensor_fusion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/sensor_fusion

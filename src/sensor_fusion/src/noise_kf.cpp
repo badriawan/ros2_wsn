@@ -19,49 +19,51 @@ public:
 
     R = measurement_noise;
     Q = process_noise;
-    P.setidentity();
-    P*= estimation_error; //prediction error ; The goals from the measurement and prediction is to make the less value of P or around 0.
-    F.setidentity();
-    M.setidentity();
+    P.setIdentity();
+    P = estimation_error * Eigen::Matrix2d::Identity();
+    X << x_value,y_value; //prediction error ; The goals from the measurement and prediction is to make the less value of P or around 0.
+    F.setIdentity();
+    H.setIdentity();
 
 
 }
     void prediction(double controller_x,double controller_y,double dt){ //The controller are velocity.
 
     //state prediction
-    X = X + controller_x * dt;
-    Y = Y + controller_y * dt;
+    X(0) = X(0) + controller_x * dt;
+    X(1) = X(1) + controller_y * dt;
     
     //cov prediction
-    P=P+Q;
+    P = F * P * F.transpose() + Q * Eigen::Matrix2d::Identity();
 
     }
     void update(double measurement_x,double measurement_y){
 
-    double K = P / (P + R);
-    X = X + K * (measurement_x - X);
-    Y = Y + K * (measurement_y - Y);
-    P = (1 - K) * P;
+    Eigen::Vector2d Z;
+    Z << measurement_x,measurement_y;
+
+    Eigen::Vector2d Y = Z - H * X; //measurement residual
+    Eigen::Matrix2d S = H*P*H.transpose() + R*Eigen::Matrix2d::Identity(); //residual covariance
+    Eigen::Matrix2d K = P * H.transpose() * S.inverse();  //kalman gain
+
+    X = X + K * Y;
+
+    P = (Eigen::Matrix2d::Identity() - K*H) * P;
 }
     double getStateX(){ 
-    return X[0];
+    return X(0);
 }
     double getStateY(){ 
-    return X[1];
+    return X(1);
 }
 
 private:
-    double R;
-    double Q;
+    double R; //Process Noise Covariance
+    double Q; //Measurement Noise Covariance
     Eigen::Matrix2d P; //estimation error covariance
-    Eigen::Matrix2d X; //state X,Y
     Eigen::Matrix2d F; //transition matrix
-    Eigen::Matrix2d M; //measurement matrix
-
-
-    // double K;
-    double Y;
-    //double dt = 0.1;
+    Eigen::Matrix2d H; //measurement matrix
+    Eigen::Vector2d X; //state X,Y
 
 };
 
