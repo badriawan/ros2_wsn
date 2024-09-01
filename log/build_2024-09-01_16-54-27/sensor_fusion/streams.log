@@ -1,0 +1,35 @@
+[0.035s] Invoking command in '/home/yusuf/ros2_wsn/build/sensor_fusion': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/sensor_fusion -- -j8 -l8
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target noise_kf[0m
+[0.137s] [ 33%] Built target linear_kf
+[0.143s] [ 66%] Built target advanced_kf
+[0.165s] [ 83%] [32mBuilding CXX object CMakeFiles/noise_kf.dir/src/noise_kf.cpp.o[0m
+[4.731s] [01m[K/home/yusuf/ros2_wsn/src/sensor_fusion/src/noise_kf.cpp:[m[K In function ‘[01m[Kdouble generateGaussianNoise(double, double)[m[K’:
+[4.732s] [01m[K/home/yusuf/ros2_wsn/src/sensor_fusion/src/noise_kf.cpp:17:17:[m[K [01;31m[Kerror: [m[K‘[01m[Krandom_device[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[4.732s]    17 |     static std::[01;31m[Krandom_device[m[K rd;
+[4.732s]       |                 [01;31m[K^~~~~~~~~~~~~[m[K
+[4.735s] [01m[K/home/yusuf/ros2_wsn/src/sensor_fusion/src/noise_kf.cpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmt19937[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[4.735s]    18 |     static std::[01;31m[Kmt19937[m[K generator(rd());
+[4.735s]       |                 [01;31m[K^~~~~~~[m[K
+[4.739s] [01m[K/home/yusuf/ros2_wsn/src/sensor_fusion/src/noise_kf.cpp:19:10:[m[K [01;31m[Kerror: [m[K‘[01m[Knormal_distribution[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kuniform_int_distribution[m[K’?
+[4.739s]    19 |     std::[01;31m[Knormal_distribution[m[K<double> distribution(mean, stddev);
+[4.740s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.740s]       |          [32m[Kuniform_int_distribution[m[K
+[4.740s] [01m[K/home/yusuf/ros2_wsn/src/sensor_fusion/src/noise_kf.cpp:19:30:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kdouble[m[K’
+[4.740s]    19 |     std::normal_distribution<[01;31m[Kdouble[m[K> distribution(mean, stddev);
+[4.740s]       |                              [01;31m[K^~~~~~[m[K
+[4.750s] [01m[K/home/yusuf/ros2_wsn/src/sensor_fusion/src/noise_kf.cpp:20:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kgenerator[m[K’ was not declared in this scope
+[4.750s]    20 |     return distribution([01;31m[Kgenerator[m[K);
+[4.750s]       |                         [01;31m[K^~~~~~~~~[m[K
+[4.763s] [01m[K/home/yusuf/ros2_wsn/src/sensor_fusion/src/noise_kf.cpp:20:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kdistribution[m[K’ was not declared in this scope
+[4.763s]    20 |     return [01;31m[Kdistribution[m[K(generator);
+[4.763s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[4.763s] [01m[K/home/yusuf/ros2_wsn/src/sensor_fusion/src/noise_kf.cpp:16:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmean[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.764s]    16 | double generateGaussianNoise([01;35m[Kdouble mean[m[K, double stddev) {
+[4.764s]       |                              [01;35m[K~~~~~~~^~~~[m[K
+[4.764s] [01m[K/home/yusuf/ros2_wsn/src/sensor_fusion/src/noise_kf.cpp:16:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstddev[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.764s]    16 | double generateGaussianNoise(double mean, [01;35m[Kdouble stddev[m[K) {
+[4.765s]       |                                           [01;35m[K~~~~~~~^~~~~~[m[K
+[11.926s] gmake[2]: *** [CMakeFiles/noise_kf.dir/build.make:76: CMakeFiles/noise_kf.dir/src/noise_kf.cpp.o] Error 1
+[11.927s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/noise_kf.dir/all] Error 2
+[11.927s] gmake: *** [Makefile:146: all] Error 2
+[11.930s] Invoked command in '/home/yusuf/ros2_wsn/build/sensor_fusion' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/sensor_fusion -- -j8 -l8

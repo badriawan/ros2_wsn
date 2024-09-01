@@ -8,10 +8,19 @@
 #include "nav_msgs/msg/odometry.hpp"
 #include "visualization_msgs/msg/marker.hpp"
 #include <Eigen/Dense>
+#include <random>
 
 
 
 using namespace std::chrono_literals;
+
+double generateGaussianNoise(double mean, double stddev) {
+    static std::random_device rd;
+    static std::mt19937 generator(rd());
+    std::normal_distribution<double> distribution(mean, stddev);
+    return distribution(generator);
+}
+
 
 class KalmanFilter{
 public:
@@ -29,9 +38,13 @@ public:
 }
     void prediction(double controller_x,double controller_y,double dt){ //The controller are velocity.
 
+    double noisy_vx = controller_x + generateGaussianNoise(0,Q);
+    double noisy_vy = controller_y + generateGaussianNoise(0,Q);
+
+
     //state prediction
-    X(0) = X(0) + controller_x * dt;
-    X(1) = X(1) + controller_y * dt;
+    X(0) = X(0) + noisy_vx * dt;
+    X(1) = X(1) + noisy_vy * dt;
     
     //cov prediction
     P = F * P * F.transpose() + Q * Eigen::Matrix2d::Identity();
@@ -39,8 +52,12 @@ public:
     }
     void update(double measurement_x,double measurement_y){
 
+    double noisy_x = measurement_x + generateGaussianNoise(0,R);
+    double noisy_y = measurement_y + generateGaussianNoise(0,R);
+
+    
     Eigen::Vector2d Z;
-    Z << measurement_x,measurement_y;
+    Z << noisy_x,noisy_y;
 
     Eigen::Vector2d Y = Z - H * X; //measurement residual
     Eigen::Matrix2d S = H*P*H.transpose() + R*Eigen::Matrix2d::Identity(); //residual covariance
