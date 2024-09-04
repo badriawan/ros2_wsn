@@ -1,0 +1,28 @@
+[ 33%] Built target advanced_kf
+[ 66%] Built target linear_kf
+[100%] Built target noise_kf
+-- Install configuration: ""
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/linear_kf
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/advanced_kf
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/noise_kf
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/launch
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/launch/linear_kf.launch.py
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/launch/tb3_ekf.launch.py
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/config
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/config/tb3_ekf.yaml
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/config/kf.rviz
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/ament_index/resource_index/package_run_dependencies/sensor_fusion
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/ament_index/resource_index/parent_prefix_path/sensor_fusion
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/environment/path.sh
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/environment/path.dsv
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/local_setup.bash
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/local_setup.sh
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/local_setup.zsh
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/local_setup.dsv
+-- Installing: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/package.dsv
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/ament_index/resource_index/packages/sensor_fusion
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig.cmake
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/cmake/sensor_fusionConfig-version.cmake
+-- Up-to-date: /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/package.xml

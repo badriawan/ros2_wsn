@@ -59,7 +59,7 @@ public:
     Eigen::Vector2d Z;
     Z << noisy_x,noisy_y;
 
-    Eigen::Vector2d Y = Z - H * X; //measurement residual
+    Eigen::Vector2d Y = Z - H * X; //measurement residual , this must be reduced as small as possible
     Eigen::Matrix2d S = H*P*H.transpose() + R*Eigen::Matrix2d::Identity(); //residual covariance
     Eigen::Matrix2d K = P * H.transpose() * S.inverse();  //kalman gain
 

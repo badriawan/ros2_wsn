@@ -1,0 +1,43 @@
+[0.031s] Invoking command in '/home/yusuf/ros2_wsn/build/LLM-Robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_wsn/src/LLM-Robot -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_wsn/install/LLM-Robot
+[0.184s] -- The C compiler identification is GNU 11.4.0
+[0.298s] -- The CXX compiler identification is GNU 11.4.0
+[0.315s] -- Detecting C compiler ABI info
+[0.418s] -- Detecting C compiler ABI info - done
+[0.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.433s] -- Detecting C compile features
+[0.434s] -- Detecting C compile features - done
+[0.439s] -- Detecting CXX compiler ABI info
+[0.546s] -- Detecting CXX compiler ABI info - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.556s] -- Detecting CXX compile features
+[0.557s] -- Detecting CXX compile features - done
+[0.566s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.785s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.954s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.053s] WARNING: Package name "LLM-Robot" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.107s] -- Added test 'lint_cmake' to check CMake code style
+[1.111s] -- Added test 'xmllint' to check XML markup files
+[1.115s] -- Configuring done
+[1.120s] -- Generating done
+[1.122s] -- Build files have been written to: /home/yusuf/ros2_wsn/build/LLM-Robot
+[1.131s] Invoked command in '/home/yusuf/ros2_wsn/build/LLM-Robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_wsn/src/LLM-Robot -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_wsn/install/LLM-Robot
+[1.135s] Invoking command in '/home/yusuf/ros2_wsn/build/LLM-Robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/LLM-Robot -- -j8 -l8
+[1.210s] Invoked command in '/home/yusuf/ros2_wsn/build/LLM-Robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/LLM-Robot -- -j8 -l8
+[1.257s] Invoking command in '/home/yusuf/ros2_wsn/build/LLM-Robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/LLM-Robot
+[1.274s] -- Install configuration: ""
+[1.275s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/ament_index/resource_index/package_run_dependencies/LLM-Robot
+[1.276s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/ament_index/resource_index/parent_prefix_path/LLM-Robot
+[1.280s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/environment/ament_prefix_path.sh
+[1.281s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/environment/ament_prefix_path.dsv
+[1.281s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/environment/path.sh
+[1.281s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/environment/path.dsv
+[1.281s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/local_setup.bash
+[1.281s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/local_setup.sh
+[1.282s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/local_setup.zsh
+[1.282s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/local_setup.dsv
+[1.282s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/package.dsv
+[1.282s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/ament_index/resource_index/packages/LLM-Robot
+[1.282s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/cmake/LLM-RobotConfig.cmake
+[1.283s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/cmake/LLM-RobotConfig-version.cmake
+[1.287s] -- Installing: /home/yusuf/ros2_wsn/install/LLM-Robot/share/LLM-Robot/package.xml
+[1.293s] Invoked command in '/home/yusuf/ros2_wsn/build/LLM-Robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/LLM-Robot

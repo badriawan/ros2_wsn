@@ -2,6 +2,8 @@
 /home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/advanced_kf
 /home/yusuf/ros2_wsn/install/sensor_fusion/lib/sensor_fusion/noise_kf
 /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/launch/linear_kf.launch.py
+/home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/launch/tb3_ekf.launch.py
+/home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/config/tb3_ekf.yaml
 /home/yusuf/ros2_wsn/install/sensor_fusion/share/sensor_fusion/config/kf.rviz
 /home/yusuf/ros2_wsn/install/sensor_fusion/share/ament_index/resource_index/package_run_dependencies/sensor_fusion
 /home/yusuf/ros2_wsn/install/sensor_fusion/share/ament_index/resource_index/parent_prefix_path/sensor_fusion

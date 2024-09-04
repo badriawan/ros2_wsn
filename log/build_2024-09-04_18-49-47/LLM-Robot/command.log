@@ -1,0 +1,6 @@
+Invoking command in '/home/yusuf/ros2_wsn/build/LLM-Robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_wsn/src/LLM-Robot -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_wsn/install/LLM-Robot
+Invoked command in '/home/yusuf/ros2_wsn/build/LLM-Robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yusuf/ros2_wsn/src/LLM-Robot -DCMAKE_INSTALL_PREFIX=/home/yusuf/ros2_wsn/install/LLM-Robot
+Invoking command in '/home/yusuf/ros2_wsn/build/LLM-Robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/LLM-Robot -- -j8 -l8
+Invoked command in '/home/yusuf/ros2_wsn/build/LLM-Robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yusuf/ros2_wsn/build/LLM-Robot -- -j8 -l8
+Invoking command in '/home/yusuf/ros2_wsn/build/LLM-Robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/LLM-Robot
+Invoked command in '/home/yusuf/ros2_wsn/build/LLM-Robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yusuf/ros2_wsn/build/LLM-Robot

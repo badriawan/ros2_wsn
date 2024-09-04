@@ -180,7 +180,7 @@ Visualization Manager:
       Enabled: true
       Name: Marker
       Namespaces:
-        tb3odom: true
+        {}
       Topic:
         Depth: 5
         Durability Policy: Volatile
@@ -192,7 +192,7 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: odom
+    Fixed Frame: base_link
     Frame Rate: 30
   Name: root
   Tools:
@@ -235,7 +235,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 1.337480902671814
+      Distance: 5.560707092285156
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -250,10 +250,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.7603979706764221
+      Pitch: 0.5503983497619629
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 0.8703972697257996
+      Yaw: 1.01039719581604
     Saved: ~
 Window Geometry:
   Displays:
